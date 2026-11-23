@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ghatu Deportes · Fútbol boliviano y del mundo al minuto</title>
+<meta name="description" content="Titulares deportivos al día: fútbol boliviano (Bolívar, The Strongest, la Verde), Libertadores, Champions, selecciones y otros deportes, con enlace a cada medio.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self'; script-src 'self'; connect-src 'self'; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#0b0f14" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f3f5f8" media="(prefers-color-scheme: light)">
+<meta property="og:title" content="Ghatu Deportes">
+<meta property="og:description" content="Fútbol boliviano y del mundo, al minuto. Titulares de medios bolivianos e internacionales con enlace a la nota original.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ghatugames.github.io/deportes/">
+<meta property="og:image" content="https://ghatugames.github.io/deportes/assets/og-deportes.jpg">
+<link rel="canonical" href="https://ghatugames.github.io/deportes/">
+<link rel="icon" href="assets/icono-32.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/icono-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preload" href="assets/fuentes/bebas-neue.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/estilo.css">
+<script src="assets/tema.js"></script>
+</head>
+<body>
+<a class="saltar" href="#lista">Saltar a las noticias</a>
+<header class="cabecera">
+  <div class="envoltura barra">
+    <a class="marca" href="./" aria-label="Ghatu Deportes, inicio">
+      <img src="assets/icono-64.png" alt="" width="34" height="34"><span>Ghatu <b>Deportes</b></span>
+    </a>
+    <span class="estado" id="estado" role="status" aria-live="polite"><i></i><span>Cargando…</span></span>
+    <button class="tema" id="tema" type="button" aria-label="Cambiar a modo claro" title="Modo claro / oscuro"><span aria-hidden="true"></span></button>
+  </div>
+  <nav class="envoltura pestanas" id="pestanas" aria-label="Secciones"></nav>
+</header>
+<main class="envoltura" id="contenido">
+  <div class="buscador">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+    <input id="buscar" type="search" placeholder="Buscar: Bolívar, Libertadores, Messi…" aria-label="Buscar noticias" autocomplete="off" enterkeyhint="search">
+    <button id="limpiar" type="button" aria-label="Borrar búsqueda" hidden>✕</button>
+  </div>
+  <section class="tira" id="tira" hidden aria-labelledby="tira-t"><div class="tira-cab"><h2 id="tira-t"><span class="punto"></span>Bolivia al minuto</h2><button type="button" class="enlace" data-ir="bolivia">Ver todo Bolivia →</button></div><div class="tira-lista" id="tira-lista"></div></section>
+  <p class="resumen-lista" id="resumen" aria-live="polite"></p>
+  <div id="lista" class="lista" tabindex="-1" aria-busy="true">
+    <div class="esqueleto"></div><div class="esqueleto"></div><div class="esqueleto"></div><div class="esqueleto"></div>
+  </div>
+  <div class="mas"><button type="button" class="boton" id="mas" hidden>Ver más noticias</button></div>
+  <noscript><p class="aviso">Esta página necesita JavaScript para mostrar las noticias.</p></noscript>
+</main>
+<footer class="pie">
+  <div class="envoltura">
+    <p><b>¿Cómo funciona?</b> Cada hora juntamos los titulares que publican los propios medios en sus canales RSS públicos (y búsquedas de Google Noticias). Solo mostramos el titular, el medio, la fecha y un resumen corto; <b>toca una noticia para leerla completa en el sitio del medio</b>. Los textos e imágenes pertenecen a cada medio.</p>
+    <details class="fuentes"><summary>Medios consultados</summary><ul id="fuentes"></ul></details>
+    <p class="pie-nota">Sin anuncios, sin cuentas y sin rastreo: no usamos cookies ni estadísticas.</p>
+    <a class="sello" href="https://ghatugames.github.io/" target="_blank" rel="noopener"><img src="assets/ghatu-128.webp" alt="" width="44" height="44" loading="lazy"><span><small>Hecho por</small><b>Ghatu Games</b></span></a>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
