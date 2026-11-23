@@ -125,3 +125,5 @@ mark{background:color-mix(in srgb,var(--amarillo) 45%,transparent);color:inherit
 }
 @media (min-width:1020px){.lista{grid-template-columns:repeat(3,minmax(0,1fr))}.pestanas{flex-wrap:wrap;overflow:visible}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.pag404{padding:40px 14px}
+.boton-enlace{display:inline-flex;align-items:center;text-decoration:none;margin-top:12px}
