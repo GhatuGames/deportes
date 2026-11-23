@@ -21,6 +21,13 @@ Titulares deportivos al día, pensados para el celular: **fútbol boliviano** (D
 ## Agregar o quitar un medio
 Edita `scripts/fuentes.mjs` (una línea por feed). Prueba local: `node scripts/actualizar.mjs data/noticias.json` y abre `python3 -m http.server` → http://localhost:8000
 
+
+## Carrusel diario
+- Cada día a las 08:00 (Bolivia, `12:00` UTC) `.github/workflows/carrusel.yml` arma un carrusel de 6–8 imágenes (1080×1350) con lo más importante del fútbol, pensado para Facebook e Instagram.
+- Lámina de portada, 5 o 6 noticias (prioridad: fútbol boliviano y la Verde, luego Libertadores / Sudamericana y el mundo) y un cierre. Los textos salen solo del titular y el resumen del feed: no se inventan datos, goles ni citas, y no se usan fotos de los medios.
+- Se publica en https://ghatugames.github.io/deportes/carrusel/ (láminas de hoy, un ZIP y un archivo de 14 días). Tipografías: Bebas Neue (Dharma Type) y Outfit (Outfit Type Foundry), ambas SIL OFL 1.1, en `scripts/carrusel-fuentes/`.
+- Prueba local: `python3 scripts/carrusel.py` (hace falta Pillow).
+
 ## Créditos
 Tipografía Bebas Neue (Dharma Type), licencia SIL OFL 1.1 (`assets/fuentes/OFL-BebasNeue.txt`).
 Hecho por [Ghatu Games](https://ghatugames.github.io/).

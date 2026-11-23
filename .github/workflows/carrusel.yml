@@ -1,0 +1,42 @@
+# Arma el carrusel diario de fútbol (imágenes 1080×1350 para Facebook e Instagram)
+# y lo publica en el repositorio. El flujo "Actualizar noticias" lo copia a GitHub Pages.
+# No usa claves ni secretos.
+name: Carrusel diario
+
+on:
+  schedule:
+    - cron: '0 12 * * *'   # 08:00 en Bolivia (UTC-4, todo el año)
+  workflow_dispatch:       # botón "Run workflow" para generarlo a mano
+
+permissions:
+  contents: write
+
+concurrency:
+  group: carrusel
+  cancel-in-progress: false
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar Pillow
+        run: pip install --quiet pillow
+      - name: Generar el carrusel del día
+        run: python scripts/carrusel.py
+      - name: Publicar en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add carrusel
+          if git diff --staged --quiet; then
+            echo "Sin cambios en el carrusel"
+            exit 0
+          fi
+          git commit -m "Carrusel del $(TZ=America/La_Paz date +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push

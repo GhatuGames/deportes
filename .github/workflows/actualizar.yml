@@ -31,6 +31,7 @@ jobs:
         run: |
           mkdir -p _sitio
           cp -r index.html 404.html manifest.webmanifest assets data _sitio/
+          if [ -d carrusel ]; then cp -r carrusel _sitio/; fi
           touch _sitio/.nojekyll
       - name: Juntar titulares
         run: node scripts/actualizar.mjs _sitio/data/noticias.json

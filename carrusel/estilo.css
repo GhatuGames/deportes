@@ -1,0 +1,22 @@
+/* Estilos propios de la página del carrusel. El resto sale de assets/estilo.css. */
+.pag-carrusel h1{font:400 48px/1 "Bebas Neue",Impact,"Arial Narrow",sans-serif;letter-spacing:.04em;margin:8px 0 4px}
+.pag-carrusel .fecha-dia{color:var(--acento);font-weight:800;margin:0 0 10px;text-transform:capitalize}
+.pag-carrusel .intro{max-width:40rem;color:var(--suave);margin:0 0 16px}
+.pag-carrusel .migas{font-size:13px;color:var(--suave);margin:18px 0 0}
+.pag-carrusel .migas a{color:var(--acento);font-weight:800;text-decoration:none}
+.pag-carrusel .volver{margin-left:auto;margin-right:8px;color:var(--acento);font-weight:800;text-decoration:none;font-size:14px;white-space:nowrap}
+.pag-carrusel .acciones{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0 22px}
+.pag-carrusel .boton{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 16px;border-radius:10px;background:var(--acento);color:#04130b;font:800 14px/1 system-ui,sans-serif;text-decoration:none;border:0;cursor:pointer}
+.pag-carrusel .boton:hover{background:var(--acento2);color:#04130b}
+.pag-carrusel .laminas{display:grid;gap:22px;margin:0 0 32px}
+@media (min-width:800px){.pag-carrusel .laminas{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.pag-carrusel .lamina{margin:0;background:var(--panel);border:1px solid var(--linea);border-radius:14px;overflow:hidden}
+.pag-carrusel .lamina img{display:block;width:100%;height:auto;background:#0b0f14}
+.pag-carrusel .lamina figcaption{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px}
+.pag-carrusel .lamina figcaption span{color:var(--suave);font-size:13px;font-weight:700}
+.pag-carrusel .epigrafe{margin:0 0 24px;padding:16px;border-radius:14px;background:var(--panel);border:1px solid var(--linea)}
+.pag-carrusel .epigrafe h2{font:400 32px/1 "Bebas Neue",Impact,sans-serif;letter-spacing:.04em;margin:0 0 6px}
+.pag-carrusel .epigrafe p{margin:0 0 10px;color:var(--suave)}
+.pag-carrusel textarea{width:100%;box-sizing:border-box;min-height:280px;padding:12px;border-radius:10px;border:1px solid var(--linea);background:var(--fondo);color:var(--texto);font:15px/1.45 system-ui,sans-serif;resize:vertical}
+.pag-carrusel #copiado{color:var(--acento);font-weight:800;font-size:14px}
+@media (max-width:480px){.pag-carrusel h1{font-size:38px}.pag-carrusel .volver{font-size:13px}}

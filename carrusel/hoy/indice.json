@@ -1,0 +1,88 @@
+{
+  "fecha": "2026-11-23",
+  "fechaTexto": "lunes 23 de noviembre de 2026",
+  "generado": "2026-11-23T08:08:25Z",
+  "zona": "America/La_Paz",
+  "slides": [
+    {
+      "n": 1,
+      "archivo": "1.png",
+      "tipo": "portada",
+      "alt": "Portada: lo más importante del fútbol hoy, lunes 23 de noviembre de 2026"
+    },
+    {
+      "n": 2,
+      "archivo": "2.png",
+      "tipo": "noticia",
+      "titular": "Blooming sufrió un duro golpe: cayó 4-0 ante The Strongest",
+      "resumen": "La Academia cruceña no pudo frenar el poder ofensivo del Tigre y terminó cayendo por cuatro goles en el estadio Hernando Siles, por la fecha 26 del torneo de la División Profesional.",
+      "medio": "Red Uno",
+      "url": "https://www.reduno.com.bo/deportes/blooming-sufrio-un-duro-golpe-cayo-4-0-ante-the-strongest-20261122201345",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Blooming sufrió un duro golpe: cayó 4-0 ante The Strongest (según Red Uno)"
+    },
+    {
+      "n": 3,
+      "archivo": "3.png",
+      "tipo": "noticia",
+      "titular": "Always Ready goleó a San Antonio y mete presión en la lucha por el título",
+      "resumen": "El equipo alteño ganó 3-0 en el estadio Félix Capriles de Cochabamba y consiguió una victoria importante para mantenerse en la pelea por el primer lugar del torneo.",
+      "medio": "El Deber",
+      "url": "https://eldeber.com.bo/deportes/always-ready-goleo-san-antonio-mete-presion-lucha-titulo_1795399716",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Always Ready goleó a San Antonio y mete presión en la lucha por el título (según El Deber)"
+    },
+    {
+      "n": 4,
+      "archivo": "4.png",
+      "tipo": "noticia",
+      "titular": "Real Potosí derrotó 1-0 a Bolívar con un polémico penal",
+      "resumen": "Un penal sancionado en tiempo de descuento terminó definiendo el encuentro a favor del conjunto lila.",
+      "medio": "Red Uno",
+      "url": "https://www.reduno.com.bo/deportes/tropezo-la-academia-real-potosi-derroto-1-0-a-bolivar-con-un-polemico-penal-20261122175645",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Real Potosí derrotó 1-0 a Bolívar con un polémico penal (según Red Uno)"
+    },
+    {
+      "n": 5,
+      "archivo": "5.png",
+      "tipo": "noticia",
+      "titular": "Oriente Petrolero e Independiente igualan",
+      "resumen": "Oriente Petrolero no pudo hacer respetar su localía y terminó empatando 2-2 ante Independiente ayer sábado, en el estadio Ramón Tahuichi Aguilera, por la fecha 26 de la Liga.",
+      "medio": "El Diario",
+      "url": "https://www.eldiario.net/portal/2026/11/22/oriente-petrolero-e-independiente-igualan/",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Oriente Petrolero e Independiente igualan (según El Diario)"
+    },
+    {
+      "n": 6,
+      "archivo": "6.png",
+      "tipo": "noticia",
+      "titular": "Bolivia remontó ante México y ganó 3-1 en el Mundial de Talla Baja",
+      "resumen": "La selección boliviana remontó el partido ante México en Rabat y sumó su segunda victoria consecutiva en el Mundial de Fútbol de Talla Baja. Este lunes enfrentará a Sudán.",
+      "medio": "Red Uno",
+      "url": "https://www.reduno.com.bo/deportes/remontada-de-la-verde-bolivia-vencio-3-1-a-mexico-en-el-mundial-de-talla-baja-20261122203828",
+      "etiqueta": "La Verde · Talla baja",
+      "alt": "Bolivia remontó ante México y ganó 3-1 en el Mundial de Talla Baja (según Red Uno)"
+    },
+    {
+      "n": 7,
+      "archivo": "7.png",
+      "tipo": "noticia",
+      "titular": "Boca se corona en la Copa Sudamericana",
+      "resumen": "Boca Juniors es el nuevo campeón de la Copa Sudamericana 2026.",
+      "medio": "El Diario",
+      "url": "https://www.eldiario.net/portal/2026/11/22/boca-se-corona-en-la-copa-sudamericana/",
+      "etiqueta": "Copas",
+      "alt": "Boca se corona en la Copa Sudamericana (según El Diario)"
+    },
+    {
+      "n": 8,
+      "archivo": "8.png",
+      "tipo": "cierre",
+      "alt": "Cierre: sigue a Ghatu Deportes en Facebook y en la web. Hecho por Ghatu Games."
+    }
+  ],
+  "epigrafe": "Lo más importante del fútbol hoy\nlunes 23 de noviembre de 2026\n\n1️⃣ Blooming sufrió un duro golpe: cayó 4-0 ante The Strongest\n2️⃣ Always Ready goleó a San Antonio y mete presión en la lucha por el título\n3️⃣ Real Potosí derrotó 1-0 a Bolívar con un polémico penal\n4️⃣ Oriente Petrolero e Independiente igualan\n5️⃣ Bolivia remontó ante México y ganó 3-1 en el Mundial de Talla Baja\n6️⃣ Boca se corona en la Copa Sudamericana\n\nLee las notas y descarga el carrusel en:\nhttps://ghatugames.github.io/deportes/carrusel/\n\nSíguenos en Facebook: Ghatu Deportes\nHecho por Ghatu Games\n\n#GhatuDeportes #Fútbol #FútbolBoliviano #LaVerde #DivisiónProfesional #CopaSudamericana #AlwaysReady #TheStrongest #Bolívar #Blooming #BocaJuniors #SanAntonio",
+  "zip": "ghatu-deportes-carrusel-2026-11-23.zip"
+}
