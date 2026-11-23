@@ -135,7 +135,7 @@ async function bajar(url, intentos = 3) {
       const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.5' }, signal: ctl.signal, redirect: 'follow' });
       if (!r.ok) throw new Error('HTTP ' + r.status);
       const txt = await r.text();
-      if (!/<(item|entry)[\s>]/i.test(txt)) throw new Error('sin noticias en el feed');
+      if (!/<(item|entry)[\s>]/i.test(txt)) throw new Error('sin noticias en el feed (' + r.status + ' ' + (r.headers.get('content-type') || '?').split(';')[0] + ' ' + txt.length + 'B: ' + txt.slice(0, 60).replace(/\s+/g, ' ') + ')');
       return txt;
     } catch (e) { if (i === intentos) throw e; await new Promise(z => setTimeout(z, 4000 * i)); }
     finally { clearTimeout(t); }
