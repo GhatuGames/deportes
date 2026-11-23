@@ -12,6 +12,11 @@ Titulares deportivos al día, pensados para el celular: **fútbol boliviano** (D
 - **Nunca** se copia el artículo completo: cada tarjeta enlaza a la nota original y muestra el nombre del medio. Los textos e imágenes son de cada medio.
 - Sin anuncios, sin cookies, sin estadísticas, sin claves ni secretos.
 
+## Feeds para Facebook (IFTTT)
+- `feed.xml`: titulares top de fútbol boliviano y la Verde, solo de medios con enlace directo (El Deber, Opinión, Red Uno, El Diario…). Máx. 2 por pasada, 2 cada 3 h y 8 cada 24 h; nada entre 0:00 y 7:00 (Bolivia). Sin repetir el mismo partido/historia en 24 h.
+- `feed-ligero.xml`: los mismos, máx. 1 cada 12 h (≈2 por día) para planes de IFTTT con pocos créditos.
+- `scripts/feed.mjs` guarda lo elegido en `data/feed-estado.json` (publicado con la web) y lo relee en cada pasada: los GUID no cambian nunca, así IFTTT no repite.
+
 ## Agregar o quitar un medio
 Edita `scripts/fuentes.mjs` (una línea por feed). Prueba local: `node scripts/actualizar.mjs data/noticias.json` y abre `python3 -m http.server` → http://localhost:8000
 

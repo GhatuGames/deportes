@@ -4,6 +4,7 @@
 import { writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { FUENTES, BLOQUEADOS } from './fuentes.mjs';
+import { R } from './reglas.mjs';
 
 const SALIDA = process.argv[2] || 'data/noticias.json';
 const PREVIO = process.env.PREVIO_URL || 'https://ghatugames.github.io/deportes/data/noticias.json';
@@ -89,16 +90,7 @@ function leerFeed(xml, f) {
 }
 
 /* ---------- categorías por palabras clave ---------- */
-const R = {
-  clubesBO: /\b(club bolivar|bolivar|the strongest|always ready|blooming|oriente petrolero|wilstermann|real potosi|nacional potosi|guabira|royal pari|universitario de vinto|real tomayapo|tomayapo|gv san jose|independiente petrolero|academia del balompie|fbf|federacion boliviana de futbol|division profesional|futbol boliviano|liga boliviana|todos contra todos|primera a)\b/,
-  ambiguosBO: /\b(aurora|san antonio|abb|tigre|academia|celeste|atigrado)\b/,
-  verde: /\b(seleccion boliviana|la verde|seleccion nacional de bolivia|bolivia (vs\.?|ante|frente a|contra|enfrenta|empata|gana|pierde|cae|vence|golea|derrota)|(vs\.?|ante|frente a|contra) bolivia|hinchas bolivianos|villegas)\b/,
-  copas: /\b(libertadores|sudamericana|champions|liga de campeones|europa league|conference league|mundial de clubes|recopa|concachampions)\b/,
-  mundial: /\b(mundial 20[23]\d|mundial de 20[23]\d|copa del mundo|eliminatoria|eliminatorias|repechaje|clasificatori[ao]s? (al|para el) mundial|copa america|fecha fifa|amistoso internacional|amistosos internacionales|seleccion (argentina|brasilena|uruguaya|colombiana|chilena|peruana|paraguaya|ecuatoriana|venezolana|mexicana|espanola)|la albiceleste|la canarinha|la scaloneta)\b/,
-  noMundial: /\b(sub-?\d+|femenil 2031|talla baja|futsal|mundial de clubes|de clubes|rugby|voley|basquet|baloncesto|beisbol|clasico mundial)\b/,
-  futbol: /\b(futbol|gol|goles|golazo|liga|laliga|premier league|premier|serie a|bundesliga|ligue 1|champions|libertadores|sudamericana|real madrid|barcelona|barca|atletico|atletico de madrid|manchester|liverpool|arsenal|chelsea|psg|bayern|juventus|inter|milan|boca|river|flamengo|palmeiras|messi|cristiano|mbappe|haaland|vinicius|lamine|dt|entrenador|tecnico|delantero|arquero|portero|penal|penales|seleccion|mundial|eliminatoria|fichaje|mercado de pases|var|hincha|hinchas|estadio|clasico|torneo apertura|torneo clausura|liga mx|liga profesional|concacaf|conmebol|uefa|fifa)\b/,
-  otros: /\b(tenis|atp|wta|nba|basquet|baloncesto|formula 1|f1|gran premio|motogp|nascar|ciclismo|tour de francia|vuelta|atletismo|maraton|boxeo|ufc|mma|lucha libre|voley|voleibol|nfl|super bowl|mlb|beisbol|golf|natacion|rally|dakar|raquet|raquetbol|ajedrez|olimpic|olimpiad|juegos bolivarianos|juegos odesur|futsal|futbol de salon|handball|balonmano|rugby|surf|esqui|patinaje|hockey|karate|taekwondo|judo|pesas|halterofilia|triatlon|motociclismo|automovilismo|cricket|padel|wrestling|wwe|esports)\b/
-};
+
 function categorias(n) {
   const x = ' ' + normal(n.t + ' ' + n.s) + ' ', c = new Set(n.base);
   const bo = n.pais === 'BO';

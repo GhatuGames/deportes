@@ -34,6 +34,9 @@ jobs:
           touch _sitio/.nojekyll
       - name: Juntar titulares
         run: node scripts/actualizar.mjs _sitio/data/noticias.json
+      - name: Feeds para Facebook (feed.xml y feed-ligero.xml)
+        # Si no puede leer qué publicó antes, falla a propósito y no publica (así nunca repite en Facebook).
+        run: node scripts/feed.mjs _sitio/data/noticias.json _sitio
       - name: Latido mensual (evita que GitHub pause la tarea por inactividad)
         if: github.event_name == 'schedule'
         run: |
