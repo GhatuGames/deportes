@@ -16,7 +16,6 @@ export const FUENTES = [
   { id: 'gn-liber',   nombre: 'Google Noticias',  pais: 'INT', tipo: 'gnews', base: ['futbol', 'copas'], url: GN('"Copa Libertadores" OR "Copa Sudamericana"') },
   { id: 'gn-mundial', nombre: 'Google Noticias',  pais: 'INT', tipo: 'gnews', base: ['futbol'], url: GN('Eliminatorias OR "Mundial 2030" OR "Copa América" OR "fecha FIFA" selección fútbol') },
   { id: 'as',         nombre: 'AS',               pais: 'INT', base: ['futbol'], url: 'https://feeds.as.com/mrss-s/pages/as/site/as.com/section/futbol/subsection/internacional/' },
-  { id: 'espn',       nombre: 'ESPN Deportes',    pais: 'INT', url: 'https://espndeportes.espn.com/espn/rss/news' },
   { id: 'infobae',    nombre: 'Infobae',          pais: 'INT', url: 'https://www.infobae.com/arc/outboundfeeds/rss/category/deportes/' },
   { id: 'ole',        nombre: 'Olé',              pais: 'INT', url: 'https://www.ole.com.ar/rss/ultimas-noticias/' },
   { id: 'mundodep',   nombre: 'Mundo Deportivo',  pais: 'INT', base: ['futbol'], url: 'https://www.mundodeportivo.com/rss/futbol' },
