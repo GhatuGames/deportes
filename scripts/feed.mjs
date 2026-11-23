@@ -1,6 +1,7 @@
 // Feeds RSS 2.0 curados para Facebook (vía IFTTT). Se corre después de actualizar.mjs.
 //   feed.xml          — titulares top de fútbol boliviano / la Verde: máx. 2 nuevos por pasada y 8 por día.
-//   feed-ligero.xml   — el mismo material, máx. 1 cada 12 h (≈2 por día), para planes de IFTTT con pocos créditos.
+//   feed-ligero.xml   — el mismo material, máx. 1 cada 12 h (≈2 por día ≈ 60 al mes): plan Starter de IFTTT.
+//   feed-gratis.xml   — máx. 1 cada 56 h (≈13 al mes): entra en los 1.000 créditos del plan Free de IFTTT.
 //   Ritmo: máx. 2 por pasada, máx. 2 cada 3 h, máx. 8 cada 24 h y nada entre las 0:00 y las 7:00 (hora de Bolivia).
 // Las elecciones se guardan en data/feed-estado.json (publicado junto a la web) para que nunca cambien:
 // GUID estable por noticia ⇒ IFTTT no vuelve a publicar nada.
@@ -12,7 +13,7 @@ const [ENTRADA = 'data/noticias.json', SITIO = '.'] = process.argv.slice(2);
 const BASE = 'https://ghatugames.github.io/deportes/';
 const ESTADO_URL = process.env.FEED_ESTADO_URL || BASE + 'data/feed-estado.json';
 const UA = 'Mozilla/5.0 (compatible; GhatuDeportes/1.0; +' + BASE + ')';
-const CFG = { porPasada: 2, porVentana: 2, ventanaH: 3, porDia: 8, edadMaxH: 8, silencio: [0, 7], ligeroCadaH: 12, guardarDias: 10, enFeed: 15 };
+const CFG = { porPasada: 2, porVentana: 2, ventanaH: 3, porDia: 8, edadMaxH: 8, silencio: [0, 7], ligeroCadaH: 12, gratisCadaH: 56, guardarDias: 14, enFeed: 15 };
 const ahora = process.env.FEED_AHORA ? Date.parse(process.env.FEED_AHORA) : Date.now(), H = 36e5;   // FEED_AHORA: solo para pruebas
 
 /* ---------- estado anterior (si no se puede leer, NO se publica: evita repetir) ---------- */
@@ -85,12 +86,13 @@ async function infoImagen(url) {
   }
   return null;
 }
-const ultimaLigera = estado.elegidas.filter(e => e.ligero).map(e => Date.parse(e.elegida)).sort((a, b) => b - a)[0] || 0;
-let ligeroLibre = ahora - ultimaLigera >= CFG.ligeroCadaH * H;
+const ultima = k => estado.elegidas.filter(e => e[k]).map(e => Date.parse(e.elegida)).sort((a, b) => b - a)[0] || 0;
+let ligeroLibre = ahora - ultima('ligero') >= CFG.ligeroCadaH * H;
+let gratisLibre = ahora - ultima('gratis') >= CFG.gratisCadaH * H;
 for (const n of nuevas.sort((a, b) => puntaje(b) - puntaje(a))) {
   const img = await infoImagen(n.img);
-  estado.elegidas.push({ guid: 'ghatu-deportes-' + n.id, id: n.id, t: n.t, u: n.u, f: n.f, d: n.d, s: n.s || '', img: img || null, verde: esVerde(n), ligero: ligeroLibre, elegida: new Date(ahora).toISOString() });
-  ligeroLibre = false;
+  estado.elegidas.push({ guid: 'ghatu-deportes-' + n.id, id: n.id, t: n.t, u: n.u, f: n.f, d: n.d, s: n.s || '', img: img || null, verde: esVerde(n), ligero: ligeroLibre, gratis: gratisLibre, elegida: new Date(ahora).toISOString() });
+  ligeroLibre = false; gratisLibre = false;
 }
 
 /* ---------- escribir RSS 2.0 ---------- */
@@ -137,9 +139,11 @@ ${cuerpo}
 const orden = (a, b) => Date.parse(b.d) - Date.parse(a.d) || Date.parse(b.elegida) - Date.parse(a.elegida);
 const todas = [...estado.elegidas].sort(orden).slice(0, CFG.enFeed);
 const ligeras = estado.elegidas.filter(e => e.ligero).sort(orden).slice(0, 10);
+const gratis = estado.elegidas.filter(e => e.gratis).sort(orden).slice(0, 5);
 writeFileSync(SITIO + '/feed.xml', rss('feed.xml', 'Ghatu Deportes · Fútbol boliviano', 'Lo más importante del fútbol boliviano y la Verde, elegido de medios bolivianos. Cada nota enlaza al medio original.', todas));
 writeFileSync(SITIO + '/feed-ligero.xml', rss('feed-ligero.xml', 'Ghatu Deportes · Lo top del día', 'Hasta 2 titulares por día del fútbol boliviano y la Verde, con enlace al medio original.', ligeras));
+writeFileSync(SITIO + '/feed-gratis.xml', rss('feed-gratis.xml', 'Ghatu Deportes · Lo más importante', 'Un titular destacado del fútbol boliviano cada 2-3 días, con enlace al medio original.', gratis));
 estado.actualizado = new Date(ahora).toISOString(); estado.reglas = CFG;
 writeFileSync(SITIO + '/data/feed-estado.json', JSON.stringify(estado));
-console.log(`Feed: ${candidatas.length} candidatas, ${nuevas.length} nuevas${enSilencio ? ' (horario de silencio)' : ''}; 24 h: ${ult24.length + nuevas.length}/${CFG.porDia}; feed.xml ${todas.length} ítems, feed-ligero.xml ${ligeras.length}.`);
+console.log(`Feed: ${candidatas.length} candidatas, ${nuevas.length} nuevas${enSilencio ? ' (horario de silencio)' : ''}; 24 h: ${ult24.length + nuevas.length}/${CFG.porDia}; feed.xml ${todas.length} ítems, feed-ligero.xml ${ligeras.length}, feed-gratis.xml ${gratis.length}.`);
 nuevas.forEach(n => console.log('  + ' + n.f + ' · ' + n.t));
