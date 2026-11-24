@@ -1,0 +1,88 @@
+{
+  "fecha": "2026-11-24",
+  "fechaTexto": "martes 24 de noviembre de 2026",
+  "generado": "2026-11-24T12:55:58Z",
+  "zona": "America/La_Paz",
+  "slides": [
+    {
+      "n": 1,
+      "archivo": "1.png",
+      "tipo": "portada",
+      "alt": "Portada: lo más importante del fútbol hoy, martes 24 de noviembre de 2026"
+    },
+    {
+      "n": 2,
+      "archivo": "2.png",
+      "tipo": "noticia",
+      "titular": "Guabirá golpea en Oruro y da otro paso hacia la Sudamericana",
+      "resumen": "El Azucarero goleó 0-3 a Real Oruro en el Jesús Bermúdez y se afianzó en el octavo puesto con 31 puntos.",
+      "medio": "El Deber",
+      "url": "https://eldeber.com.bo/deportes/guabira-golpea-oruro-da-otro-paso-sudamericana_1795472792",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Guabirá golpea en Oruro y da otro paso hacia la Sudamericana (según El Deber)"
+    },
+    {
+      "n": 3,
+      "archivo": "3.png",
+      "tipo": "noticia",
+      "titular": "Oriente, entre deudas, paro de jugadores y la posible salida de Florentín",
+      "resumen": "Un año más, Oriente Petrolero llega al cierre de la temporada sin terminar de la mejor manera. La única diferencia en este 2026, todavía tiene la posibilidad de Copa Sudamericana.",
+      "medio": "El Deber",
+      "url": "https://eldeber.com.bo/deportes/oriente-deudas-paro-jugadores-posible-salida-florentin_1795481654",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Oriente, entre deudas, paro de jugadores y la posible salida de Florentín (según El Deber)"
+    },
+    {
+      "n": 4,
+      "archivo": "4.png",
+      "tipo": "noticia",
+      "titular": "FC Universitario se aleja del descenso y hunde a GV San José",
+      "resumen": "El equipo cochabambino ganó por 3-0 en el estadio Félix Capriles y dejó al conjunto orureño en el último lugar del torneo.",
+      "medio": "El Deber",
+      "url": "https://eldeber.com.bo/deportes/fc-universitario-aleja-descenso-hunde-gv-san-jose_1795476723",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "FC Universitario se aleja del descenso y hunde a GV San José (según El Deber)"
+    },
+    {
+      "n": 5,
+      "archivo": "5.png",
+      "tipo": "noticia",
+      "titular": "Paulucci reconoció la superioridad de The Strongest: \"No competimos\"",
+      "resumen": "El entrenador celeste calificó como triste la actuación de su equipo en la goleada por 4-0 en La Paz. Además, reconoció su preocupación por el rendimiento, apuntó a las bajas y aseguró.",
+      "medio": "El Deber",
+      "url": "https://eldeber.com.bo/deportes/paulucci-reconocio-superioridad-the-strongest-no-competimos_1795439322",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Paulucci reconoció la superioridad de The Strongest: \"No competimos\" (según El Deber)"
+    },
+    {
+      "n": 6,
+      "archivo": "6.png",
+      "tipo": "noticia",
+      "titular": "Bolivia de talla baja avanza invicta a cuartos de final del Mundial",
+      "resumen": "La Verde venció 2-1 a Sudán, terminó primera del grupo 2 con nueve puntos y ahora se enfrentará a Colombia en la siguiente instancia.",
+      "medio": "El Deber",
+      "url": "https://eldeber.com.bo/deportes/bolivia-talla-baja-avanza-invicta-cuartos-final-mundial_1795482291",
+      "etiqueta": "La Verde · Talla baja",
+      "alt": "Bolivia de talla baja avanza invicta a cuartos de final del Mundial (según El Deber)"
+    },
+    {
+      "n": 7,
+      "archivo": "7.png",
+      "tipo": "noticia",
+      "titular": "Boca se consagró campeón de la Copa Sudamericana: le ganó 2-0 a Atlético Mineiro",
+      "resumen": "Boca se consagró campeón de la Copa Sudamericana: le ganó 2-0 a Atlético Mineiro.",
+      "medio": "Radio y Televisión Riojana",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRWdCT3l2LXFzMGJxaUVNWkozcWdlQnhmbEdzZXI1SUhwLWtHVUhLSzNtc2tZNDVMZDRKMC10djV5STJPWm4za2d5d2l1MUF2Ulc0MzRBMS1zd3g2bDFHRkstUnVScG9LNVBLRHNHMlNRUk43dnVJNENoc0QwTUc2d2RnNnNla3MxazJBanZsRklkVHFONlV6ZS1RM2dlX2hsNDFUNVpISUtxNXFKYUNJTnU5QUJOaUhlSjAyYUZwenFST1JQZTNxeHkyVQ?oc=5",
+      "etiqueta": "Copas",
+      "alt": "Boca se consagró campeón de la Copa Sudamericana: le ganó 2-0 a Atlético Mineiro (según Radio y Televisión Riojana)"
+    },
+    {
+      "n": 8,
+      "archivo": "8.png",
+      "tipo": "cierre",
+      "alt": "Cierre: sigue a Ghatu Deportes en Facebook y en la web. Hecho por Ghatu Games."
+    }
+  ],
+  "epigrafe": "Lo más importante del fútbol hoy\nmartes 24 de noviembre de 2026\n\n1️⃣ Guabirá golpea en Oruro y da otro paso hacia la Sudamericana\n2️⃣ Oriente, entre deudas, paro de jugadores y la posible salida de Florentín\n3️⃣ FC Universitario se aleja del descenso y hunde a GV San José\n4️⃣ Paulucci reconoció la superioridad de The Strongest: \"No competimos\"\n5️⃣ Bolivia de talla baja avanza invicta a cuartos de final del Mundial\n6️⃣ Boca se consagró campeón de la Copa Sudamericana: le ganó 2-0 a Atlético Mineiro\n\nLee las notas y descarga el carrusel en:\nhttps://ghatugames.github.io/deportes/carrusel/\n\nSíguenos en Facebook: Ghatu Deportes\nHecho por Ghatu Games\n\n#GhatuDeportes #Fútbol #FútbolBoliviano #LaVerde #DivisiónProfesional #CopaSudamericana #TheStrongest #BocaJuniors",
+  "zip": "ghatu-deportes-carrusel-2026-11-24.zip"
+}
