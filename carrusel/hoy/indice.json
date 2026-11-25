@@ -1,80 +1,80 @@
 {
-  "fecha": "2026-11-24",
-  "fechaTexto": "martes 24 de noviembre de 2026",
-  "generado": "2026-11-24T12:55:58Z",
+  "fecha": "2026-11-25",
+  "fechaTexto": "miércoles 25 de noviembre de 2026",
+  "generado": "2026-11-25T12:58:33Z",
   "zona": "America/La_Paz",
   "slides": [
     {
       "n": 1,
       "archivo": "1.png",
       "tipo": "portada",
-      "alt": "Portada: lo más importante del fútbol hoy, martes 24 de noviembre de 2026"
+      "alt": "Portada: lo más importante del fútbol hoy, miércoles 25 de noviembre de 2026"
     },
     {
       "n": 2,
       "archivo": "2.png",
       "tipo": "noticia",
-      "titular": "Guabirá golpea en Oruro y da otro paso hacia la Sudamericana",
-      "resumen": "El Azucarero goleó 0-3 a Real Oruro en el Jesús Bermúdez y se afianzó en el octavo puesto con 31 puntos.",
-      "medio": "El Deber",
-      "url": "https://eldeber.com.bo/deportes/guabira-golpea-oruro-da-otro-paso-sudamericana_1795472792",
+      "titular": "En Real Potosí confían dar vuelta el marcador y quedarse con el título del torneo seriado",
+      "resumen": "En Real Potosí confían dar vuelta el marcador y quedarse con el título del torneo seriado.",
+      "medio": "Visión 360",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOX09Ub01xMzUtYnY5VE04SUc0Ql9ZUU96QS0yT3RIZTVZWWhyMDMySmVUajFXb0h0eWxvSHVkZVlMRlhrTG1jNTRpTU50SnhkTXpjNjhpV2VKZm01WHRLcEZZbl9sZE4tZ2FPOVpsT041aEJJSWFDYkdFaUxoQV9fMXctaElPUTE5Sm1zeVpXcDVvMm5XVzl6VG1nSDBBNWNNRmRldHI5TGd3TnFWaU53WmdJTnUtMnNwcHFzSjlkenZaRlRIenBSd19YTkl0dHhLdlVua2w3Z9IB3AFBVV95cUxQSXdtbFMwTE84RXZXN2laTTFJTlA5czR5ZlJMN0RLVjJfLXUzc1hGTWVKY3dDZmwxYXNVQ2hyMWFfS1ZrU2RfeFkwWE92X3dSTENUMUNmTnRVV2M4TUh3Q21URkdpaDU3LTgwTWVBLU1FbHZfXzcwTVRXVXU4YnRNZDRycHRDQVVKZmZjNXM0Rk5kNktEUlBBaDAtX2l5RDgzS01EOHNyZkZ2N2V0b1NZSU1YemV2VE52MmlzNnRVaW54SmVoNnBhT0NlYXVRSkFDYzVJZEtOVHgtdVI4?oc=5",
       "etiqueta": "Fútbol boliviano",
-      "alt": "Guabirá golpea en Oruro y da otro paso hacia la Sudamericana (según El Deber)"
+      "alt": "En Real Potosí confían dar vuelta el marcador y quedarse con el título del torneo seriado (según Visión 360)"
     },
     {
       "n": 3,
       "archivo": "3.png",
       "tipo": "noticia",
-      "titular": "Oriente, entre deudas, paro de jugadores y la posible salida de Florentín",
-      "resumen": "Un año más, Oriente Petrolero llega al cierre de la temporada sin terminar de la mejor manera. La única diferencia en este 2026, todavía tiene la posibilidad de Copa Sudamericana.",
+      "titular": "Sin margen de error: Blooming necesita ganar sus cuatro finales y esperar resultados",
+      "resumen": "Cristian Paulucci reconoció que las posibilidades de clasificar a un torneo internacional son cada vez menores. Blooming es undécimo con 31 puntos, está a cinco de la zona de clasificación.",
       "medio": "El Deber",
-      "url": "https://eldeber.com.bo/deportes/oriente-deudas-paro-jugadores-posible-salida-florentin_1795481654",
+      "url": "https://eldeber.com.bo/deportes/margen-error-blooming-necesita-ganar-cuatro-finales-esperar-resultados_1795539525",
       "etiqueta": "Fútbol boliviano",
-      "alt": "Oriente, entre deudas, paro de jugadores y la posible salida de Florentín (según El Deber)"
+      "alt": "Sin margen de error: Blooming necesita ganar sus cuatro finales y esperar resultados (según El Deber)"
     },
     {
       "n": 4,
       "archivo": "4.png",
       "tipo": "noticia",
-      "titular": "FC Universitario se aleja del descenso y hunde a GV San José",
-      "resumen": "El equipo cochabambino ganó por 3-0 en el estadio Félix Capriles y dejó al conjunto orureño en el último lugar del torneo.",
-      "medio": "El Deber",
-      "url": "https://eldeber.com.bo/deportes/fc-universitario-aleja-descenso-hunde-gv-san-jose_1795476723",
+      "titular": "¿Habrá VAR en la final de la Copa Simón Bolívar? Lo que se sabe",
+      "resumen": "La definición del torneo de ascenso tendrá dos partidos decisivos entre Deportivo Mineros e Independiente San Juan.",
+      "medio": "Red Uno",
+      "url": "https://www.reduno.com.bo/deportes/habra-var-en-la-final-de-la-copa-simon-bolivar-esto-es-lo-que-se-sabe-2026112412528",
       "etiqueta": "Fútbol boliviano",
-      "alt": "FC Universitario se aleja del descenso y hunde a GV San José (según El Deber)"
+      "alt": "¿Habrá VAR en la final de la Copa Simón Bolívar? Lo que se sabe (según Red Uno)"
     },
     {
       "n": 5,
       "archivo": "5.png",
       "tipo": "noticia",
-      "titular": "Paulucci reconoció la superioridad de The Strongest: \"No competimos\"",
-      "resumen": "El entrenador celeste calificó como triste la actuación de su equipo en la goleada por 4-0 en La Paz. Además, reconoció su preocupación por el rendimiento, apuntó a las bajas y aseguró.",
+      "titular": "Oriente no levanta el paro y la posibilidad de que juegue la reserva crece",
+      "resumen": "Los futbolistas llegaron este martes a San Antonio, sostuvieron una reunión y se retiraron sin entrenar. Exigen el pago de dos cuotas salariales y advirtieron que, si no reciben.",
       "medio": "El Deber",
-      "url": "https://eldeber.com.bo/deportes/paulucci-reconocio-superioridad-the-strongest-no-competimos_1795439322",
+      "url": "https://eldeber.com.bo/deportes/oriente-no-levanta-paro-posibilidad-juegue-reserva-crece_1795534537",
       "etiqueta": "Fútbol boliviano",
-      "alt": "Paulucci reconoció la superioridad de The Strongest: \"No competimos\" (según El Deber)"
+      "alt": "Oriente no levanta el paro y la posibilidad de que juegue la reserva crece (según El Deber)"
     },
     {
       "n": 6,
       "archivo": "6.png",
       "tipo": "noticia",
-      "titular": "Bolivia de talla baja avanza invicta a cuartos de final del Mundial",
-      "resumen": "La Verde venció 2-1 a Sudán, terminó primera del grupo 2 con nueve puntos y ahora se enfrentará a Colombia en la siguiente instancia.",
-      "medio": "El Deber",
-      "url": "https://eldeber.com.bo/deportes/bolivia-talla-baja-avanza-invicta-cuartos-final-mundial_1795482291",
+      "titular": "La selección argentina de talla baja goleó 5-1 a Brasil y se clasificó a los cuartos de final del Mundial: el particular festejo",
+      "resumen": "El combinado albiceleste, que defiende el título en Marruecos, culminó la fase de grupos con puntaje ideal.",
+      "medio": "Infobae",
+      "url": "https://www.infobae.com/deportes/2026/11/24/la-seleccion-argentina-de-talla-baja-goleo-5-1-a-brasil-y-se-clasifico-a-los-cuartos-de-final-del-mundial-el-particular-festejo/",
       "etiqueta": "La Verde · Talla baja",
-      "alt": "Bolivia de talla baja avanza invicta a cuartos de final del Mundial (según El Deber)"
+      "alt": "La selección argentina de talla baja goleó 5-1 a Brasil y se clasificó a los cuartos de final del Mundial: el particular festejo (según Infobae)"
     },
     {
       "n": 7,
       "archivo": "7.png",
       "tipo": "noticia",
-      "titular": "Boca se consagró campeón de la Copa Sudamericana: le ganó 2-0 a Atlético Mineiro",
-      "resumen": "Boca se consagró campeón de la Copa Sudamericana: le ganó 2-0 a Atlético Mineiro.",
-      "medio": "Radio y Televisión Riojana",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRWdCT3l2LXFzMGJxaUVNWkozcWdlQnhmbEdzZXI1SUhwLWtHVUhLSzNtc2tZNDVMZDRKMC10djV5STJPWm4za2d5d2l1MUF2Ulc0MzRBMS1zd3g2bDFHRkstUnVScG9LNVBLRHNHMlNRUk43dnVJNENoc0QwTUc2d2RnNnNla3MxazJBanZsRklkVHFONlV6ZS1RM2dlX2hsNDFUNVpISUtxNXFKYUNJTnU5QUJOaUhlSjAyYUZwenFST1JQZTNxeHkyVQ?oc=5",
+      "titular": "La millonaria cifra que puede ganar Estudiantes si sale campeón de la Copa Libertadores",
+      "resumen": "La millonaria cifra que puede ganar Estudiantes si sale campeón de la Copa Libertadores.",
+      "medio": "Agencia Noticias Argentinas",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRUlhMU9QTVFBMmliTzY0RXpDZGdDR2dkNERuWG43VGJCWExjWi1CbjBYRmQ1V2pMeEx1bDIwOWtibTlDV3JBckpiRkZLOEU4MERIdDBaZkY4ejdRN2Q5ajFxZkxZaE9vajdmSy04ZWJhQkRGMkJWb2p6LUJVaHBuXzhtR0NpeS1NbndPc2JsOWk5Y0FqNGN2TGxtTXRuenRpWDFYZzNKclUxY3FsX1NVeDZ0R3JSNXJkYjFkS2JnelQxNVBkQ3ZNQzRlLWVjOXdfRjlGTUdZd3g4NDJVejFzLXZ4cjFHQkRG0gH3AUFVX3lxTE5zdjUyOW5qN2kxMk4ybk5fZkhEXzhiOHdyVnBnRVFsM3lkcWV5Nmx5UkZUTDRkajJ1X0F4WFZ1WlhjbUVtZDYxbmNMTDRRcGwwb0hfekNfQ0JUSEt4d0F5X2wxMS1mT0hsZmhCWWdFTWRiSVc3VDVGczJzczNxQTdtUmh6UFZETF83UG1DTDdQZ0JoZUQ3LVE4a2x3ajlZNWp1eVNfMXllMDFPZGRuWElBbGlTeVNjQnpRanhaaFhHR2Z3LUhHYjgteDZHWjdzQWFNMUhRSDU5Wkw0RktzYmpibVNWLVYwbWNXMHNsZW9rUWFzaXNvOWc?oc=5",
       "etiqueta": "Copas",
-      "alt": "Boca se consagró campeón de la Copa Sudamericana: le ganó 2-0 a Atlético Mineiro (según Radio y Televisión Riojana)"
+      "alt": "La millonaria cifra que puede ganar Estudiantes si sale campeón de la Copa Libertadores (según Agencia Noticias Argentinas)"
     },
     {
       "n": 8,
@@ -83,6 +83,6 @@
       "alt": "Cierre: sigue a Ghatu Deportes en Facebook y en la web. Hecho por Ghatu Games."
     }
   ],
-  "epigrafe": "Lo más importante del fútbol hoy\nmartes 24 de noviembre de 2026\n\n1️⃣ Guabirá golpea en Oruro y da otro paso hacia la Sudamericana\n2️⃣ Oriente, entre deudas, paro de jugadores y la posible salida de Florentín\n3️⃣ FC Universitario se aleja del descenso y hunde a GV San José\n4️⃣ Paulucci reconoció la superioridad de The Strongest: \"No competimos\"\n5️⃣ Bolivia de talla baja avanza invicta a cuartos de final del Mundial\n6️⃣ Boca se consagró campeón de la Copa Sudamericana: le ganó 2-0 a Atlético Mineiro\n\nLee las notas y descarga el carrusel en:\nhttps://ghatugames.github.io/deportes/carrusel/\n\nSíguenos en Facebook: Ghatu Deportes\nHecho por Ghatu Games\n\n#GhatuDeportes #Fútbol #FútbolBoliviano #LaVerde #DivisiónProfesional #CopaSudamericana #TheStrongest #BocaJuniors",
-  "zip": "ghatu-deportes-carrusel-2026-11-24.zip"
+  "epigrafe": "Lo más importante del fútbol hoy\nmiércoles 25 de noviembre de 2026\n\n1️⃣ En Real Potosí confían dar vuelta el marcador y quedarse con el título del torneo seriado\n2️⃣ Sin margen de error: Blooming necesita ganar sus cuatro finales y esperar resultados\n3️⃣ ¿Habrá VAR en la final de la Copa Simón Bolívar? Lo que se sabe\n4️⃣ Oriente no levanta el paro y la posibilidad de que juegue la reserva crece\n5️⃣ La selección argentina de talla baja goleó 5-1 a Brasil y se clasificó a los cuartos de final del Mundial: el particular festejo\n6️⃣ La millonaria cifra que puede ganar Estudiantes si sale campeón de la Copa Libertadores\n\nLee las notas y descarga el carrusel en:\nhttps://ghatugames.github.io/deportes/carrusel/\n\nSíguenos en Facebook: Ghatu Deportes\nHecho por Ghatu Games\n\n#GhatuDeportes #Fútbol #FútbolBoliviano #LaVerde #DivisiónProfesional #CopaLibertadores #Bolívar #Blooming #SanAntonio",
+  "zip": "ghatu-deportes-carrusel-2026-11-25.zip"
 }
