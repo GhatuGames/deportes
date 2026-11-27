@@ -1,0 +1,88 @@
+{
+  "fecha": "2026-11-27",
+  "fechaTexto": "viernes 27 de noviembre de 2026",
+  "generado": "2026-11-27T12:54:40Z",
+  "zona": "America/La_Paz",
+  "slides": [
+    {
+      "n": 1,
+      "archivo": "1.png",
+      "tipo": "portada",
+      "alt": "Portada: lo más importante del fútbol hoy, viernes 27 de noviembre de 2026"
+    },
+    {
+      "n": 2,
+      "archivo": "2.png",
+      "tipo": "noticia",
+      "titular": "Apuestas CA Nacional Potosí Oriente Petrolero 28 de noviembre de 2026 (Cuotas División Profesional Boliviana)",
+      "resumen": "Apuestas CA Nacional Potosí Oriente Petrolero 28 de noviembre de 2026 (Cuotas División Profesional Boliviana).",
+      "medio": "SportyTrader",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdE9iZFBub0dWWlpuUEFZZmVva1N5YnZ1czljNDhKclZaVUx2ekJBSTJZeDRFZUNyNzVRR01EOXJ4dU54TEd0YU5leVIzQV9IcEI5Tjdwc3AzY3VFQU92Nlpxam9wNTltdDB2eFgzbzJFLUlzbGtZdDROVVNWMEpvQV9xMA?oc=5",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Apuestas CA Nacional Potosí Oriente Petrolero 28 de noviembre de 2026 (Cuotas División Profesional Boliviana) (según SportyTrader)"
+    },
+    {
+      "n": 3,
+      "archivo": "3.png",
+      "tipo": "noticia",
+      "titular": "Bolivia — Always Ready fue el mejor del torneo seriado y asegura su presencia en la Libertadores 2027",
+      "resumen": "Bolivia — Always Ready fue el mejor del torneo seriado y asegura su presencia en la Libertadores 2027.",
+      "medio": "Prensa Mercosur",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQT3pBQ29kR0VLcDcxOHdUdUoweE9LdkRMaVludDFYYWsxNGlERmVtT1AzQldsTS1nVDFwbFhCRmdSakFoUzZPX1YtbmhkOTNwY0VRSHNLU3NmMk9raEROWmZvUFBralFsVW93bGNPMmtSUmd2cVNtTmF3UW9qeF8yMi1QcFVVTWVMNE1KN0dQMjNuMGNFZ3gxbWdwSVpNNFUwdFRfTHF4RjVfR2VqX0VQX3FsMHZ4ZTlfSlREdVRRQWMzMHJxcnVqSlFHWUpYYk9PSS1uUA?oc=5",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Bolivia — Always Ready fue el mejor del torneo seriado y asegura su presencia en la Libertadores 2027 (según Prensa Mercosur)"
+    },
+    {
+      "n": 4,
+      "archivo": "4.png",
+      "tipo": "noticia",
+      "titular": "Atlanta vs. Ciudad de Bolívar, por el Reducido de la Primera Nacional 2026: hora, cómo ver en vivo y árbitro",
+      "resumen": "El Bohemio ganó 1-0 en el primer partido y buscará cerrar la serie en Villa Crespo. El Celeste necesita dar vuelta el resultado para seguir soñando con el ascenso.",
+      "medio": "Olé",
+      "url": "https://www.ole.com.ar/futbol-ascenso/atlanta-ciudad-bolivar-partido-reducido-primera-naional-2026-dia-horario-tv-arbitro_0_jKQ6Rn6n3P.html",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Atlanta vs. Ciudad de Bolívar, por el Reducido de la Primera Nacional 2026: hora, cómo ver en vivo y árbitro (según Olé)"
+    },
+    {
+      "n": 5,
+      "archivo": "5.png",
+      "tipo": "noticia",
+      "titular": "Escándalo en la NBA: el apodo que recibió Wembanyama de sus colegas tras sus críticas",
+      "resumen": "La figura de San Antonio Spurs quedó en el centro de la escena tras sus declaraciones en la victoria ante los Pelicans.",
+      "medio": "Infobae",
+      "url": "https://www.infobae.com/deportes/2026/11/27/escandalo-en-la-nba-el-apodo-que-recibio-wembanyama-por-sus-colegas-tras-sus-criticas/",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Escándalo en la NBA: el apodo que recibió Wembanyama de sus colegas tras sus críticas (según Infobae)"
+    },
+    {
+      "n": 6,
+      "archivo": "6.png",
+      "tipo": "noticia",
+      "titular": "La Selección Colombia se despidió del Mundial de talla baja: quedó eliminada en cuartos de final en lanzamientos desde el punto penalti",
+      "resumen": "Tras empatar 2-2 contra Bolivia, el equipo colombiano cayó en el desempate por un cupo a semifinales.",
+      "medio": "El Tiempo",
+      "url": "https://www.eltiempo.com/deportes/futbol-internacional/la-seleccion-colombia-se-despidio-del-mundial-de-talla-baja-quedo-eliminada-en-cuartos-de-final-en-lanzamientos-desde-el-punto-penalti-3604731",
+      "etiqueta": "La Verde · Talla baja",
+      "alt": "La Selección Colombia se despidió del Mundial de talla baja: quedó eliminada en cuartos de final en lanzamientos desde el punto penalti (según El Tiempo)"
+    },
+    {
+      "n": 7,
+      "archivo": "7.png",
+      "tipo": "noticia",
+      "titular": "Del fútbol al fisicoculturismo: el sorprendente cambio físico de un campeón de la Copa Libertadores",
+      "resumen": "Guilherme, quien conoció la gloria continental en el Atlético Mineiro, terminó su etapa profesional en Cianorte FC en 2024 y cambió de deporte.",
+      "medio": "Infobae",
+      "url": "https://www.infobae.com/deportes/2026/11/26/del-futbol-al-fisicoculturismo-el-sorprendente-cambio-fisico-de-un-campeon-de-la-copa-libertadores/",
+      "etiqueta": "Copas",
+      "alt": "Del fútbol al fisicoculturismo: el sorprendente cambio físico de un campeón de la Copa Libertadores (según Infobae)"
+    },
+    {
+      "n": 8,
+      "archivo": "8.png",
+      "tipo": "cierre",
+      "alt": "Cierre: sigue a Ghatu Deportes en Facebook y en la web. Hecho por Ghatu Games."
+    }
+  ],
+  "epigrafe": "Lo más importante del fútbol hoy\nviernes 27 de noviembre de 2026\n\n1️⃣ Apuestas CA Nacional Potosí Oriente Petrolero 28 de noviembre de 2026 (Cuotas División Profesional Boliviana)\n2️⃣ Bolivia — Always Ready fue el mejor del torneo seriado y asegura su presencia en la Libertadores 2027\n3️⃣ Atlanta vs. Ciudad de Bolívar, por el Reducido de la Primera Nacional 2026: hora, cómo ver en vivo y árbitro\n4️⃣ Escándalo en la NBA: el apodo que recibió Wembanyama de sus colegas tras sus críticas\n5️⃣ La Selección Colombia se despidió del Mundial de talla baja: quedó eliminada en cuartos de final en lanzamientos desde el punto penalti\n6️⃣ Del fútbol al fisicoculturismo: el sorprendente cambio físico de un campeón de la Copa Libertadores\n\nLee las notas y descarga el carrusel en:\nhttps://ghatugames.github.io/deportes/carrusel/\n\nSíguenos en Facebook: Ghatu Deportes\nHecho por Ghatu Games\n\n#GhatuDeportes #Fútbol #FútbolBoliviano #LaVerde #DivisiónProfesional #CopaLibertadores #AlwaysReady #Bolívar #SanAntonio",
+  "zip": "ghatu-deportes-carrusel-2026-11-27.zip"
+}
