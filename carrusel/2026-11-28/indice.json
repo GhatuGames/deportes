@@ -1,0 +1,88 @@
+{
+  "fecha": "2026-11-28",
+  "fechaTexto": "sábado 28 de noviembre de 2026",
+  "generado": "2026-11-28T12:44:26Z",
+  "zona": "America/La_Paz",
+  "slides": [
+    {
+      "n": 1,
+      "archivo": "1.png",
+      "tipo": "portada",
+      "alt": "Portada: lo más importante del fútbol hoy, sábado 28 de noviembre de 2026"
+    },
+    {
+      "n": 2,
+      "archivo": "2.png",
+      "tipo": "noticia",
+      "titular": "ABB sale del descenso directo y hunde a Real Tomayapo en el indirecto",
+      "resumen": "El equipo alteño venció por 1-0 en Villa Ingenio, en un partido que se jugó a las 22:00 tras varias reprogramaciones que molestaron a la dirigencia local.",
+      "medio": "El Deber",
+      "url": "https://eldeber.com.bo/deportes/abb-sale-descenso-directo-hunde-real-tomayapo-indirecto_1795838933",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "ABB sale del descenso directo y hunde a Real Tomayapo en el indirecto (según El Deber)"
+    },
+    {
+      "n": 3,
+      "archivo": "3.png",
+      "tipo": "noticia",
+      "titular": "Independiente goleó a Real Oruro y se mete en la pelea internacional",
+      "resumen": "Independiente derrotó 4-1 a Real Oruro la noche de este viernes en el estadio Olímpico Patria, en el inicio de la fecha 27 del torneo todos contra todos. El equipo chuquisaqueño reaccionó.",
+      "medio": "El Deber",
+      "url": "https://eldeber.com.bo/deportes/independiente-goleo-real-oruro-mete-pelea-internacional_1795828149",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Independiente goleó a Real Oruro y se mete en la pelea internacional (según El Deber)"
+    },
+    {
+      "n": 4,
+      "archivo": "4.png",
+      "tipo": "noticia",
+      "titular": "Atlanta sufrió de más pero eliminó a Ciudad Bolívar por ventaja deportiva y se metió en las semis del reducido",
+      "resumen": "El Bohemio no jugó bien y el Celeste mereció más que el 1-0, pero la falta de eficacia lo dejó fuera de la pelea por el ascenso. Los de Villa Crespo se ilusionan.",
+      "medio": "Olé",
+      "url": "https://www.ole.com.ar/futbol-ascenso/atlanta-ciudad-bolivar-primera-nacional-ascenso-reducido-cuartos-final_0_4GRSQHkUGZ.html",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "Atlanta sufrió de más pero eliminó a Ciudad Bolívar por ventaja deportiva y se metió en las semis del reducido (según Olé)"
+    },
+    {
+      "n": 5,
+      "archivo": "5.png",
+      "tipo": "noticia",
+      "titular": "La reserva de Oriente Petrolero emprende viaje este viernes para enfrentar a Nacional Potosí",
+      "resumen": "La reserva de Oriente Petrolero emprende viaje este viernes para enfrentar a Nacional Potosí.",
+      "medio": "eju.tv",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb1gydVdkbkxVMjRmMm5IWDQxN2ZVeHhoVTFmaVBPeFd4eEsxUFo1Wk85ZzFWa2YwOFp6VEd0bHNlOVFBM0VSbk43QVpiejZpMTdmYUd0dUk4MnNabk1rR2xFSF9ETk5rdVo2bWFTb3pzSmk1eUFXQm9UcnNDejNqNy1lOUJzTVBENFhEeC1RSWVUWHdVZWNndjYtZW9iTENpcEQwRnpQd2RtdHlJSndzeWhOQUppdFk?oc=5",
+      "etiqueta": "Fútbol boliviano",
+      "alt": "La reserva de Oriente Petrolero emprende viaje este viernes para enfrentar a Nacional Potosí (según eju.tv)"
+    },
+    {
+      "n": 6,
+      "archivo": "6.png",
+      "tipo": "noticia",
+      "titular": "Bolivia y Argentina se enfrentarán por el tercer puesto del Mundial de Talla Baja",
+      "resumen": "Ambas selecciones quedaron fuera de la final. La Albiceleste perdió 4-1 ante Paraguay, mientras que la Verde cayó frente al anfitrión Marruecos.",
+      "medio": "El Deber",
+      "url": "https://eldeber.com.bo/deportes/bolivia-argentina-enfrentaran-tercer-puesto-mundial-talla-baja_1795824221",
+      "etiqueta": "La Verde · Talla baja",
+      "alt": "Bolivia y Argentina se enfrentarán por el tercer puesto del Mundial de Talla Baja (según El Deber)"
+    },
+    {
+      "n": 7,
+      "archivo": "7.png",
+      "tipo": "noticia",
+      "titular": "Estudiantes y Palmeiras definen al campeón de la Copa Libertadores",
+      "resumen": "Estudiantes y Palmeiras definen al campeón de la Copa Libertadores.",
+      "medio": "EL DÍA",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYzFZNFRtTU14dmZIb0RiUUNKOHBwYV95dzhsQ3pXRWRwTXA2cTVjNUxUVTdXMkh4VHNuaUF1Um9SXzhncFVOWjJsME0wUlNUdFpqZ2p5SXQyTlo5b083VkZ5ZEMzajVSN0doNGRvLW5iWGNNcXo0dEFHLTVyajB5dFkxZk9vV014a2FHTFR0ZHllSkg1cS0yZ0pPVHo2VTdHZ3dfcl9hREJkNzAyVGY5NmJR?oc=5",
+      "etiqueta": "Copas",
+      "alt": "Estudiantes y Palmeiras definen al campeón de la Copa Libertadores (según EL DÍA)"
+    },
+    {
+      "n": 8,
+      "archivo": "8.png",
+      "tipo": "cierre",
+      "alt": "Cierre: sigue a Ghatu Deportes en Facebook y en la web. Hecho por Ghatu Games."
+    }
+  ],
+  "epigrafe": "Lo más importante del fútbol hoy\nsábado 28 de noviembre de 2026\n\n1️⃣ ABB sale del descenso directo y hunde a Real Tomayapo en el indirecto\n2️⃣ Independiente goleó a Real Oruro y se mete en la pelea internacional\n3️⃣ Atlanta sufrió de más pero eliminó a Ciudad Bolívar por ventaja deportiva y se metió en las semis del reducido\n4️⃣ La reserva de Oriente Petrolero emprende viaje este viernes para enfrentar a Nacional Potosí\n5️⃣ Bolivia y Argentina se enfrentarán por el tercer puesto del Mundial de Talla Baja\n6️⃣ Estudiantes y Palmeiras definen al campeón de la Copa Libertadores\n\nLee las notas y descarga el carrusel en:\nhttps://ghatugames.github.io/deportes/carrusel/\n\nSíguenos en Facebook: Ghatu Deportes\nHecho por Ghatu Games\n\n#GhatuDeportes #Fútbol #FútbolBoliviano #LaVerde #CopaLibertadores #Bolívar",
+  "zip": "ghatu-deportes-carrusel-2026-11-28.zip"
+}
